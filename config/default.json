@@ -1,0 +1,31 @@
+{
+  "appName": "Whrodley",
+  "host": "localhost",
+  "port": 3030,
+  "secret": "notverysecret",
+  "pusher": {
+    "appId": "",
+    "key": "",
+    "secret": "",
+    "cluster": ""
+  },
+  "postgres": {
+    "client": "postgresql",
+    "connection": "postgres://postgres:password@postgres:5432/whrodley"
+  },
+  "mail": {
+    "host": "smtp.mailtrap.io",
+    "port": "2525",
+    "auth": {
+      "user": "",
+      "pass": ""
+    }
+  },
+  "twilioStatusCallbackUrl": "",
+  "redis": "",
+  "title": "",
+  "twilio": {
+    "accountSid": "",
+    "authToken": ""
+  }
+}
